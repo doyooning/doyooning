@@ -2,7 +2,7 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&text=Doyoon's%20Github&animation=fadeIn&fontColor=000000&fontSize=60" />
     </div>
     <div align= "center"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Introduction </h2>  
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 😎 Introduction </h2>  
     <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;"> 백엔드 개발자 꿈나무🌳 </div> 
     </div>
     <div align= "center">
