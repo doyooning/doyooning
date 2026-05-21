@@ -3,7 +3,7 @@
     </div>
     <div align= "center"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 😎 Introduction </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;"> 백엔드 개발자 꿈나무🌳 </div> 
+    <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;"> 백엔드 개발자 꿈나무🌳김도윤입니다. </div> 
     </div>
     <div align= "center">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
