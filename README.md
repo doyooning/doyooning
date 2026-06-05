@@ -4,7 +4,7 @@
     <div align= "center"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 😎 Introduction </h2>  
     <div style="font-weight: 700; font-size: 15px; text-align: center; color: #282d33;"> 
-        백엔드 개발자 김도윤입니다. 🌳 \n
+        백엔드 개발자 김도윤입니다. 🌳 </br>
         성능 개선을 통한 사용자 경험 개선, AI 기술에 관심이 있습니다.
     </div> 
     </div>
