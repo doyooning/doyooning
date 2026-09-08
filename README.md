@@ -33,7 +33,7 @@
   <h3>🤖 AI Agents</h3> 
   <p> 
     <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white">
-    <img src="https://img.shields.io/badge/Codex-000000?style=for-the-badge&logo=openai&logoColor=white">
+    <img src="https://img.shields.io/badge/OpenAI%20Codex-000000?style=for-the-badge&logoColor=white">
   </p>
   
   <h3>🤝 Tools</h3>
