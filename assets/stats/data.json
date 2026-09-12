@@ -1,15 +1,15 @@
 {
   "user": "doyooning",
-  "updatedAt": "2026-09-12T12:15:52.745Z",
+  "updatedAt": "2026-09-12T23:05:44.768Z",
   "activityPeriod": {
     "from": "2025-09-12",
     "to": "2026-09-12"
   },
   "scope": "Public GitHub indexed activity; language bytes from owned public repositories excluding forks",
-  "commits": 1617,
+  "commits": 1612,
   "pullRequests": 205,
   "issues": 105,
-  "repositories": 21,
+  "repositories": 20,
   "stars": 0,
   "languageBytes": {
     "Java": 2658762,
@@ -18,8 +18,8 @@
     "TypeScript": 717148,
     "CSS": 69999,
     "PLpgSQL": 13224,
-    "Jupyter Notebook": 9736321,
-    "Python": 106409,
+    "Jupyter Notebook": 9585690,
+    "Python": 82110,
     "Dockerfile": 108,
     "Vue": 1399499,
     "Mustache": 19742
@@ -33,7 +33,6 @@
     "doyooning/Jari-YOLO",
     "doyooning/kubernetes_practice",
     "doyooning/Project_DESKIT_v2",
-    "doyooning/Python_ML",
     "doyooning/Redis_Study",
     "doyooning/self_study_log",
     "doyooning/Shinsegae",
