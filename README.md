@@ -100,5 +100,6 @@
     <div align= "center">  </div> 
     </div>
     <div align= "center"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🏅 Stats </h2> <div align= "center">  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doyooning&layout=compact&cache_seconds=86400" /> </div> 
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🏅 Stats </h2> <div align= "center">  <img src="./assets/stats/activity.svg" alt="Activity Overview" width="440" />
+      <img src="./assets/stats/languages.svg" alt="Language Usage" width="440" /> </div> 
     </div>
