@@ -23,7 +23,7 @@ try {
         await page.locator('article.markdown-body').first().waitFor({ timeout: 30000 });
         const scope = page.locator('article.markdown-body').first();
         // Scroll every image into view so lazy loading cannot produce a false failure.
-        for (const image of await scope.locator('img').all()) await image.scrollIntoViewIfNeeded();
+        for (let index = 0; index < await scope.locator('img').count(); index++) { await scope.locator('img').nth(index).scrollIntoViewIfNeeded().catch(() => {}); }
         try {
           await page.waitForFunction(() => [...document.querySelectorAll('article.markdown-body img')].every(i => i.complete), { }, { timeout: 30000 });
         } catch { /* Pending images are reported as failures below. */ }
@@ -58,3 +58,4 @@ try {
   await writeFile('verification-results/summary.md', summary.join('\n'));
 }
 if (failed) process.exitCode = 1;
+
