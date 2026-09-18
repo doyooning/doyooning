@@ -1,15 +1,15 @@
 {
   "user": "doyooning",
-  "updatedAt": "2026-09-17T23:34:55.781Z",
+  "updatedAt": "2026-09-18T23:23:32.349Z",
   "activityPeriod": {
-    "from": "2025-09-17",
-    "to": "2026-09-17"
+    "from": "2025-09-18",
+    "to": "2026-09-18"
   },
   "scope": "Public GitHub indexed activity; language bytes from owned public repositories excluding forks",
-  "commits": 1589,
-  "pullRequests": 202,
+  "commits": 1587,
+  "pullRequests": 201,
   "issues": 105,
-  "repositories": 20,
+  "repositories": 21,
   "stars": 0,
   "languageBytes": {
     "Java": 2658762,
@@ -44,6 +44,7 @@
     "doyooning/SSG_Lecture_9_Spring_Boot",
     "doyooning/SSG_Lecture_9_Web",
     "doyooning/TIL",
+    "doyooning/UiPath_SDK_Sandbox",
     "doyooning/Web_Page_for_JS_Project"
   ]
 }
