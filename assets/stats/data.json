@@ -1,21 +1,21 @@
 {
   "user": "doyooning",
-  "updatedAt": "2026-09-19T14:58:28.687Z",
+  "updatedAt": "2026-09-19T15:01:22.236Z",
   "activityPeriod": {
     "from": "2025-09-19",
     "to": "2026-09-19"
   },
-  "scope": "Public GitHub indexed activity; language bytes from owned public repositories including forks",
-  "commits": 1584,
+  "scope": "Public GitHub indexed activity and language bytes from owned public repositories including forks",
+  "commits": 1585,
   "pullRequests": 201,
   "issues": 105,
-  "repositories": 21,
+  "repositories": 27,
   "stars": 0,
   "languageBytes": {
     "Java": 4996226,
     "Python": 3705404,
     "Jupyter Notebook": 9790152,
-    "JavaScript": 306389,
+    "JavaScript": 306408,
     "HTML": 274150,
     "CSS": 123247,
     "Dockerfile": 13457,
@@ -28,12 +28,17 @@
   },
   "repositoriesIncluded": [
     "doyooning/algorithm_study",
+    "doyooning/classroom_monitoring",
     "doyooning/doyooning",
     "doyooning/festmanager",
     "doyooning/fm-lite",
     "doyooning/gohwang-live",
+    "doyooning/HeadFirst-DesignPattern",
     "doyooning/Jari-YOLO",
     "doyooning/kubernetes_practice",
+    "doyooning/Modern-Java-in-Action",
+    "doyooning/Project_1_WMS",
+    "doyooning/Project_DESKIT",
     "doyooning/Project_DESKIT_v2",
     "doyooning/Redis_Study",
     "doyooning/self_study_log",
@@ -47,7 +52,8 @@
     "doyooning/SSG_Lecture_9_Web",
     "doyooning/TIL",
     "doyooning/UiPath_SDK_Sandbox",
-    "doyooning/Web_Page_for_JS_Project"
+    "doyooning/Web_Page_for_JS_Project",
+    "doyooning/WMS_Project_RACL"
   ],
   "languageRepositoriesIncluded": [
     "doyooning/algorithm_study",
