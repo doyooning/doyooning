@@ -19,14 +19,16 @@ const count = async (endpoint, query) => (await api(`/search/${endpoint}?q=${enc
 const commits = await count('commits', `author:${user} committer-date:${range}`);
 const prs = await count('issues', `author:${user} type:pr is:public created:${range}`);
 const issues = await count('issues', `author:${user} type:issue is:public created:${range}`);
-const repos = [];
+const publicRepos = [];
 for (let page = 1; ; page++) {
   const batch = await api(`/users/${user}/repos?type=owner&per_page=100&page=${page}`);
-  repos.push(...batch.filter(r => !r.private && !r.fork));
+  publicRepos.push(...batch.filter(r => !r.private));
   if (batch.length < 100) break;
 }
+const repos = publicRepos.filter(r => !r.fork);
+const languageRepos = publicRepos;
 const languages = {};
-for (const repo of repos) {
+for (const repo of languageRepos) {
   const data = await api(`/repos/${user}/${repo.name}/languages`);
   for (const [language, bytes] of Object.entries(data)) languages[language] = (languages[language] || 0) + bytes;
 }
@@ -34,7 +36,7 @@ const total = Object.values(languages).reduce((a, b) => a + b, 0);
 const sorted = Object.entries(languages).sort((a, b) => b[1] - a[1]);
 const rows = sorted.slice(0, 6);
 if (sorted.length > 6) rows.push(['Others', sorted.slice(6).reduce((sum, [, n]) => sum + n, 0)]);
-const stats = { user, updatedAt: now.toISOString(), activityPeriod: { from: date(from), to: date(now) }, scope: 'Public GitHub indexed activity; language bytes from owned public repositories excluding forks', commits, pullRequests: prs, issues, repositories: repos.length, stars: repos.reduce((sum, r) => sum + r.stargazers_count, 0), languageBytes: languages, repositoriesIncluded: repos.map(r => r.full_name) };
+const stats = { user, updatedAt: now.toISOString(), activityPeriod: { from: date(from), to: date(now) }, scope: 'Public GitHub indexed activity; language bytes from owned public repositories including forks', commits, pullRequests: prs, issues, repositories: repos.length, stars: repos.reduce((sum, r) => sum + r.stargazers_count, 0), languageBytes: languages, repositoriesIncluded: repos.map(r => r.full_name), languageRepositoriesIncluded: languageRepos.map(r => r.full_name) };
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' }[c]));
 const colors = ['#60a5fa', '#4ade80', '#fbbf24', '#c084fc', '#fb7185', '#2dd4bf', '#94a3b8'];
 function card(title, body, footer) {
@@ -43,7 +45,7 @@ function card(title, body, footer) {
 const metrics = [['Commits (indexed)', commits], ['Pull requests', prs], ['Issues opened', issues], ['Public repositories', repos.length], ['Stars received', stats.stars]];
 let activity = `<text x="24" y="59" font-size="11" fill="#9da7b3">Public activity · ${date(from)} to ${date(now)}</text>`;
 metrics.forEach(([label, value], i) => { const y = 89 + i * 27; activity += `<text x="24" y="${y}" font-size="13" fill="#c9d1d9">${esc(label)}</text><text x="413" y="${y}" text-anchor="end" font-size="17" font-weight="700" fill="#60a5fa">${value.toLocaleString('en-US')}</text>`; });
-let lang = '<text x="24" y="59" font-size="11" fill="#9da7b3">Owned public repositories · forks excluded</text>';
+let lang = '<text x="24" y="59" font-size="11" fill="#9da7b3">Owned public repositories · forks included</text>';
 if (total) {
   let x = 24;
   rows.forEach(([name, bytes], i) => {
@@ -58,4 +60,4 @@ await mkdir('assets/stats', { recursive: true });
 await writeFile('assets/stats/activity.svg', card('Activity Overview', activity, 'Commits / PRs / issues: past 12 months · repos / stars: current'));
 await writeFile('assets/stats/languages.svg', card('Languages', lang, 'Share of code bytes · not a measure of proficiency'));
 await writeFile('assets/stats/data.json', JSON.stringify(stats, null, 2) + '\n');
-console.log(`Generated cards: ${repos.length} repositories, ${sorted.length} languages; ${commits} commits, ${prs} PRs, ${issues} issues`);
+console.log(`Generated cards: ${repos.length} non-fork repositories, ${languageRepos.length} language repositories, ${sorted.length} languages; ${commits} commits, ${prs} PRs, ${issues} issues`);
