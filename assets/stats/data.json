@@ -1,12 +1,12 @@
 {
   "user": "doyooning",
-  "updatedAt": "2026-09-19T15:01:22.236Z",
+  "updatedAt": "2026-09-19T23:15:43.726Z",
   "activityPeriod": {
     "from": "2025-09-19",
     "to": "2026-09-19"
   },
   "scope": "Public GitHub indexed activity and language bytes from owned public repositories including forks",
-  "commits": 1585,
+  "commits": 1587,
   "pullRequests": 201,
   "issues": 105,
   "repositories": 27,
@@ -14,7 +14,7 @@
   "languageBytes": {
     "Java": 4996226,
     "Python": 3705404,
-    "Jupyter Notebook": 9790152,
+    "Jupyter Notebook": 204462,
     "JavaScript": 306408,
     "HTML": 274150,
     "CSS": 123247,
