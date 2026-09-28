@@ -92,6 +92,14 @@
   </p>
   
 </div>
+
+<div align="center">
+  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🎓 Certifications </h2> <br>
+  <a href="https://www.credly.com/badges/b05c873b-5ae4-4b25-951f-2d79e9c7f48f/public_url">
+    <img src="https://images.credly.com/size/340x340/images/f101c6ac-8a2d-4220-b381-70e3e6c364e3/blob" width="150" alt="Claude Certified Developer - Foundations">
+  </a>
+</div>
+
     <div align= "center">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me </h2> <br> 
     <div align= "center"> <a href=https://velog.io/@doyooning/about> <img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Velog&logoColor=white&link=https://velog.io/@doyooning/about"> </a>
