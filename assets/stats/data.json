@@ -1,19 +1,19 @@
 {
   "user": "doyooning",
-  "updatedAt": "2026-09-29T01:04:22.000Z",
+  "updatedAt": "2026-09-30T00:35:23.663Z",
   "activityPeriod": {
-    "from": "2025-09-29",
-    "to": "2026-09-29"
+    "from": "2025-09-30",
+    "to": "2026-09-30"
   },
   "scope": "Public GitHub indexed activity and language bytes from owned public repositories including forks",
-  "commits": 1508,
-  "pullRequests": 176,
+  "commits": 1484,
+  "pullRequests": 167,
   "issues": 93,
   "repositories": 27,
   "stars": 0,
   "languageBytes": {
     "Java": 4996226,
-    "Python": 3705404,
+    "Python": 3715552,
     "Jupyter Notebook": 204462,
     "JavaScript": 306408,
     "HTML": 274150,
@@ -24,7 +24,7 @@
     "PLpgSQL": 13224,
     "Vue": 2562068,
     "Mustache": 19742,
-    "Mermaid": 299
+    "Mermaid": 845
   },
   "repositoriesIncluded": [
     "doyooning/algorithm_study",
