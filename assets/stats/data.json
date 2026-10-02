@@ -1,26 +1,26 @@
 {
   "user": "doyooning",
-  "updatedAt": "2026-10-01T00:37:48.927Z",
+  "updatedAt": "2026-10-02T00:56:13.814Z",
   "activityPeriod": {
-    "from": "2025-10-01",
-    "to": "2026-10-01"
+    "from": "2025-10-02",
+    "to": "2026-10-02"
   },
   "scope": "Public GitHub indexed activity and language bytes from owned public repositories including forks",
-  "commits": 1464,
-  "pullRequests": 160,
+  "commits": 1460,
+  "pullRequests": 158,
   "issues": 93,
-  "repositories": 27,
+  "repositories": 28,
   "stars": 0,
   "languageBytes": {
     "Java": 4996226,
     "Python": 3715552,
     "Jupyter Notebook": 204462,
-    "JavaScript": 306408,
+    "JavaScript": 306847,
     "HTML": 274150,
-    "CSS": 123247,
+    "CSS": 123868,
     "Dockerfile": 13457,
     "PowerShell": 1183,
-    "TypeScript": 859789,
+    "TypeScript": 932960,
     "PLpgSQL": 13224,
     "Vue": 2562068,
     "Mustache": 19742,
@@ -29,6 +29,7 @@
   "repositoriesIncluded": [
     "doyooning/algorithm_study",
     "doyooning/classroom_monitoring",
+    "doyooning/cocoa-erp-practice",
     "doyooning/doyooning",
     "doyooning/festmanager",
     "doyooning/fm-lite",
@@ -58,6 +59,7 @@
   "languageRepositoriesIncluded": [
     "doyooning/algorithm_study",
     "doyooning/classroom_monitoring",
+    "doyooning/cocoa-erp-practice",
     "doyooning/doyooning",
     "doyooning/festmanager",
     "doyooning/fm-lite",
