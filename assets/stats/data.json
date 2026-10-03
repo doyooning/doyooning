@@ -1,12 +1,12 @@
 {
   "user": "doyooning",
-  "updatedAt": "2026-10-03T00:33:58.780Z",
+  "updatedAt": "2026-10-03T23:55:21.626Z",
   "activityPeriod": {
     "from": "2025-10-03",
     "to": "2026-10-03"
   },
   "scope": "Public GitHub indexed activity and language bytes from owned public repositories including forks",
-  "commits": 1456,
+  "commits": 1458,
   "pullRequests": 157,
   "issues": 93,
   "repositories": 28,
@@ -20,7 +20,7 @@
     "CSS": 123868,
     "Dockerfile": 13457,
     "PowerShell": 1183,
-    "TypeScript": 932960,
+    "TypeScript": 962622,
     "PLpgSQL": 13224,
     "Vue": 2562068,
     "Mustache": 19742,
