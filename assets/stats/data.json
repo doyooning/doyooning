@@ -1,18 +1,18 @@
 {
   "user": "doyooning",
-  "updatedAt": "2026-10-10T01:01:59.567Z",
+  "updatedAt": "2026-10-11T00:16:28.981Z",
   "activityPeriod": {
-    "from": "2025-10-10",
-    "to": "2026-10-10"
+    "from": "2025-10-11",
+    "to": "2026-10-11"
   },
   "scope": "Public GitHub indexed activity and language bytes from owned public repositories including forks",
-  "commits": 1458,
+  "commits": 1459,
   "pullRequests": 156,
   "issues": 93,
   "repositories": 29,
   "stars": 0,
   "languageBytes": {
-    "Java": 4996226,
+    "Java": 4997727,
     "Python": 3715552,
     "Jupyter Notebook": 204462,
     "JavaScript": 313836,
@@ -20,7 +20,7 @@
     "CSS": 123868,
     "Dockerfile": 13457,
     "PowerShell": 105070,
-    "TypeScript": 973864,
+    "TypeScript": 982755,
     "PLpgSQL": 13224,
     "Vue": 2562068,
     "Mustache": 19742,
