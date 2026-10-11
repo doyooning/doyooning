@@ -98,6 +98,9 @@
   <a href="https://www.credly.com/badges/b05c873b-5ae4-4b25-951f-2d79e9c7f48f/public_url">
     <img src="https://images.credly.com/size/340x340/images/f101c6ac-8a2d-4220-b381-70e3e6c364e3/blob" width="150" alt="Claude Certified Developer - Foundations">
   </a>
+  <a href="https://www.credly.com/badges/997d9708-1c68-4a41-9d06-be93131544fd/public_url">
+    <img src="https://images.credly.com/size/340x340/images/d8bc1ecf-6369-4bf9-8920-84169b35d918/blob" width="150" alt="Claude Partner Badge - Claude Code">
+  </a>
 </div>
 
 <div align="center">
