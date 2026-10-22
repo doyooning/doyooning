@@ -1,12 +1,12 @@
 {
   "user": "doyooning",
-  "updatedAt": "2026-10-20T23:58:26.724Z",
+  "updatedAt": "2026-10-22T00:02:53.136Z",
   "activityPeriod": {
-    "from": "2025-10-20",
-    "to": "2026-10-20"
+    "from": "2025-10-22",
+    "to": "2026-10-22"
   },
   "scope": "Public GitHub indexed activity and language bytes from owned public repositories including forks",
-  "commits": 1693,
+  "commits": 1679,
   "pullRequests": 155,
   "issues": 93,
   "repositories": 26,
